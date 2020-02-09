@@ -1,21 +1,3 @@
 body {
     background-color: #f9f5ff;
 }
-
-.rounded-button {
-    background-color: #28262c;
-    color: #f9f5ff;
-    border-radius: 10px;
-}
-.icon-edit {
-    float: right;
-    cursor: pointer;
-}
-
-.icon-trashCan {
-    float: right;
-    cursor: pointer;
-}
-
-
-

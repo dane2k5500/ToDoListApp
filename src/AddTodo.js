@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 class AddTodo extends Component {
     state ={
@@ -9,14 +10,15 @@ class AddTodo extends Component {
             content: e.target.value
         })
     }
+
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.addTodo(this.state);
         this.setState({
             content: ''
-        })
-        
+        })  
     }
+
     render() {
         return (
             <div>
